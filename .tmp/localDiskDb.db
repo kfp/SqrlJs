@@ -1,0 +1,38 @@
+{
+  "data": {
+    "user": [
+      {
+        "id": "sqrlJsUser",
+        "password": "$2a$10$OICOfVz2TY8QmHszpEVSPOhi9BNLiLtusDxoXvfwbtDMwVYR7AzLu",
+        "salt": "$2a$10$OICOfVz2TY8QmHszpEVSPO",
+        "createdAt": "2014-09-27T03:56:24.921Z",
+        "updatedAt": "2014-09-27T03:56:24.921Z"
+      }
+    ]
+  },
+  "schema": {
+    "user": {
+      "id": {
+        "type": "string"
+      },
+      "password": {
+        "type": "string"
+      },
+      "publicKey": {
+        "type": "string"
+      },
+      "salt": {
+        "type": "string"
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "user": {}
+  }
+}

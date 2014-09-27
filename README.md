@@ -1,4 +1,5 @@
-SqrlJs
-======
+# sqrljs
 
-A Javascript implementation of SQRL
+a [Sails](http://sailsjs.org) application
+
+SQRL magic is all mocked out currently. This is the initial commit to demo what could be.

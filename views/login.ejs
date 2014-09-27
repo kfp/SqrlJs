@@ -1,0 +1,26 @@
+<div style="width: 600px; margin:0 auto;">
+  <h1>Hey, Login!</h1>
+  <div style="width: 200px; text-align: center;float:left;">  
+    <a href="/Login/login?sessionHash=<%= sessionHash %>&id=sqrlJsUser&password=123456">Login</a>
+    <%- qrcode %>
+  </div>
+  <div style="width: 200px; text-align: center;float: left;">  
+    <a href="/Login/login?sessionHash=badbad&password=123456">Bad Login</a>
+  </div>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery('document').ready(function(){
+  io.socket.get('/Login/status', {}, function(){
+    console.log("Got socket");
+    io.socket.on("welcomeMessage", function(result){
+      console.log("Got welcomeMessage message");
+      if(result.status == "good"){
+	window.location = '/Login/dashboard';
+      }
+    });
+  });
+});
+
+</script>
