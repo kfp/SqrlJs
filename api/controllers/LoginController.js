@@ -32,7 +32,7 @@ module.exports = {
 	  var qr = require('qr-image');  
 	  
 	  code = qr.imageSync(
-	    "http://192.168.1.160:1337/Login/login?sessionHash="+hash+"&id=sqrlJsUser&password=123456", 
+	    sails.config.globals.baseUrl +"/Login/login?sessionHash="+hash+"&id=sqrlJsUser&password=123456", 
 	    { type: 'svg' });
 	  locals.qrcode = code;
 	  

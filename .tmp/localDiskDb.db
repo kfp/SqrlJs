@@ -3,10 +3,10 @@
     "user": [
       {
         "id": "sqrlJsUser",
-        "password": "$2a$10$OICOfVz2TY8QmHszpEVSPOhi9BNLiLtusDxoXvfwbtDMwVYR7AzLu",
-        "salt": "$2a$10$OICOfVz2TY8QmHszpEVSPO",
-        "createdAt": "2014-09-27T03:56:24.921Z",
-        "updatedAt": "2014-09-27T03:56:24.921Z"
+        "password": "$2a$10$3OP847z7yA4xfwc3A3NK/eR2gds8AQtwz6UL4vWiGpGkAuQB/l7IC",
+        "salt": "$2a$10$3OP847z7yA4xfwc3A3NK/e",
+        "createdAt": "2014-10-07T10:50:31.736Z",
+        "updatedAt": "2014-10-07T10:50:31.736Z"
       }
     ]
   },

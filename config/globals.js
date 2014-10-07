@@ -63,6 +63,7 @@ module.exports.globals = {
 	
 	
 	//Cache
-	myCache : ""
+	myCache : "",
+	baseUrl : "http://localhost:1337"
 
 };
